@@ -13,7 +13,7 @@ function binarySearch(arr, target) {
         } else {
             high = mid - 1;
         }
-    }
+    } 
 
     return -1;
 }
