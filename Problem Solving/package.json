@@ -2,9 +2,9 @@
   "name": "problem-solving",
   "version": "1.0.0",
   "description": "",
-  "main": "Task-2.js",
+  "main": "Task -3        27-01-2024.js",
   "scripts": {
-    "dev": "nodemon Task-2.js",
+    "dev": "nodemon Task -3        27-01-2024.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
