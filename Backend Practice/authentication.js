@@ -26,6 +26,7 @@ app.post("/signup", (req, res) => {
 });
 
 
+
 app.post("/signin", (req, res) => {
     const { email, password } = req.body;
 
@@ -33,8 +34,6 @@ app.post("/signin", (req, res) => {
     if (!email || !password) {
         return res.status(400).send({ error: "Email and password are required." });
     }
-
-    /* Find the user by email*/
     const user = users.find(user => user.email === email);
 
     if (!user || user.password !== password) {
@@ -53,7 +52,7 @@ app.post("/forgetpassword", (req, res) => {
         return res.status(400).send({ error: "Email is required to reset the password." });
     }
 
-    /* Check if the email is registered */
+
     const user = users.find(user => user.email === email);
 
     if (!user) {

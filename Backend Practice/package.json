@@ -2,11 +2,11 @@
   "name": "backend-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "express_router.js",
+  "main": "authentication.js",
   "type": "module",
   "scripts": {
-    "start": "node express_router.js",
-    "dev": "nodemon express_router.js",
+    "start": "node authentication.js",
+    "dev": "nodemon authentication.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
