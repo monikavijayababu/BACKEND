@@ -2,11 +2,11 @@
   "name": "backend-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "authentication.js",
+  "main": "API_task.js",
   "type": "module",
   "scripts": {
-    "start": "node authentication.js",
-    "dev": "nodemon authentication.js",
+    "start": "node API_task.js",
+    "dev": "nodemon API_task.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
